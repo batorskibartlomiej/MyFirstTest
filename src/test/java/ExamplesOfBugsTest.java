@@ -31,7 +31,7 @@ public class ExamplesOfBugsTest {
         mainPage.clickOnExamples();
         ExamplesOfBugs examplesOfBugs = new ExamplesOfBugs(driver);
         examplesOfBugs.checkText();
-        ok
+        System.out.println();
 
 
 
