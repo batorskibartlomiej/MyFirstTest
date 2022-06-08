@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExamplesOfBugsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExamplesOfBugsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/onlineShop.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="663">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +71,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -63,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0.jar!/org/testng/TestNG.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="17357">
               <caret line="1128" selection-start-line="1128" selection-end-line="1128" />
             </state>
           </provider>
@@ -105,10 +135,12 @@
         <option value="$PROJECT_DIR$/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExamplesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TypesOfBugs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
       </list>
     </option>
   </component>
@@ -124,29 +156,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="onlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFirstTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFirstTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFirstTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFirstTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyFirstTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -155,6 +185,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,11 +204,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ExamplesOfBugsTest.examplesOfBugs">
-    <configuration name="ExamplesOfBugsTest.examplesOfBugs" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MainPageTest.mainPageTest">
+    <configuration name="MainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="onlineShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExamplesOfBugsTest" />
+      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.mainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="mainPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBase.examplesOfBugs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlineShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBase" />
       <option name="METHOD_NAME" value="examplesOfBugs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -185,11 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onlineShop" />
+    <configuration name="TestBase.examplesOfBugs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="TestBase" />
+      <option name="METHOD_NAME" value="examplesOfBugs" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -210,7 +266,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExamplesOfBugsTest.examplesOfBugs" />
+        <item itemvalue="TestNG.MainPageTest.mainPageTest" />
+        <item itemvalue="TestNG.TestBase.examplesOfBugs" />
+        <item itemvalue="TestNG.TestBase.examplesOfBugs" />
         <item itemvalue="TestNG.TestBase.myFirstTest" />
         <item itemvalue="TestNG.MainPage" />
       </list>
@@ -238,9 +296,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_myFirstTest - 2022.06.03 at 20h 09m 16s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MyFirstTest_myFirstTest - 2022.06.03 at 20h 09m 53s.xml">
       <configuration name="MyFirstTest.myFirstTest" configurationId="TestNG" />
     </history-entry>
@@ -268,12 +323,15 @@
     <history-entry file="ExamplesOfBugsTest_examplesOfBugs - 2022.06.06 at 19h 57m 07s.xml">
       <configuration name="ExamplesOfBugsTest.examplesOfBugs" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExamplesOfBugsTest_examplesOfBugs_(1) - 2022.06.08 at 20h 27m 55s.xml">
+      <configuration name="ExamplesOfBugsTest.examplesOfBugs (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1612" y="5" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2586619" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26164874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,14 +340,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32967034" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,7 +374,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="17357">
           <caret line="1128" selection-start-line="1128" selection-end-line="1128" />
         </state>
       </provider>
@@ -328,10 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -341,20 +399,39 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="663">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>

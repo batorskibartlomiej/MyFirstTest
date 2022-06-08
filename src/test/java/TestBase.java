@@ -7,15 +7,15 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class ExamplesOfBugsTest {
+public class TestBase {
 
     private WebDriver driver;
 
 
     @BeforeMethod
     public void beforetest() {
-        System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
-        driver = new ChromeDriver();
+
+        driver = DriverManager.getWebDriver();
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.navigate().to("https://academybugs.com/find-bugs/#");
     }
@@ -24,24 +24,16 @@ public class ExamplesOfBugsTest {
 
 
 
-    @Test
-    public void examplesOfBugs(){
-
-        MainPage mainPage= new MainPage(driver);
-        mainPage.clickOnExamples();
-        ExamplesOfBugs examplesOfBugs = new ExamplesOfBugs(driver);
-        examplesOfBugs.checkText();
-        System.out.println();
 
 
 
 
-    }
+
+
 
     @AfterMethod
     public void afterTest() {
-        // driver.close();
-        driver.quit();
+        DriverManager.disposeDriver();
     }
 
 }
