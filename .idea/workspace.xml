@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExamplesOfBugsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExamplesOfBugsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/onlineShop.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TypesOfBugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TypesOfBugs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,12 +34,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="561">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +58,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TypesOfBugs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,10 +70,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -92,10 +93,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="476">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,19 +137,18 @@
         <option value="$PROJECT_DIR$/src/test/java/myFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExamplesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TypesOfBugs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExamplesOfBugsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TypesOfBugs.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1612" />
-    <option name="y" value="5" />
+    <option name="x" value="1714" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
@@ -156,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,12 +188,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,46 +295,52 @@
       <option name="project" value="LOCAL" />
       <updated>1654538448594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#porządki">
+      <created>1654713230793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654713230793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_myFirstTest - 2022.06.03 at 20h 09m 53s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 17m 14s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyFirstTest_myFirstTest - 2022.06.03 at 20h 11m 15s.xml">
-      <configuration name="MyFirstTest.myFirstTest" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 18m 43s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBase_myFirstTest - 2022.06.03 at 20h 37m 01s.xml">
-      <configuration name="TestBase.myFirstTest" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 25m 16s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainPage - 2022.06.06 at 19h 21m 13s.xml">
-      <configuration name="MainPage" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 31m 02s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBase_myFirstTest - 2022.06.06 at 19h 23m 06s.xml">
-      <configuration name="TestBase.myFirstTest" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 31m 32s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestBase_myFirstTest - 2022.06.06 at 19h 24m 38s.xml">
-      <configuration name="TestBase.myFirstTest" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 32m 40s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExamplesOfBugsTest_examplesOfBugs - 2022.06.06 at 19h 51m 18s.xml">
-      <configuration name="ExamplesOfBugsTest.examplesOfBugs" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 33m 01s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExamplesOfBugsTest_examplesOfBugs - 2022.06.06 at 19h 53m 43s.xml">
-      <configuration name="ExamplesOfBugsTest.examplesOfBugs" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 33m 32s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExamplesOfBugsTest_examplesOfBugs - 2022.06.06 at 19h 57m 07s.xml">
-      <configuration name="ExamplesOfBugsTest.examplesOfBugs" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 36m 56s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExamplesOfBugsTest_examplesOfBugs_(1) - 2022.06.08 at 20h 27m 55s.xml">
-      <configuration name="ExamplesOfBugsTest.examplesOfBugs (1)" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mainPageTest - 2022.06.13 at 19h 50m 14s.xml">
+      <configuration name="MainPageTest.mainPageTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1612" y="5" width="1734" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="1714" y="0" width="1734" height="1407" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26164874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26762247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +370,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#myFirstTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="#myFirstTest" />
+    <MESSAGE value="#porządki" />
+    <option name="LAST_COMMIT_MESSAGE" value="#porządki" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesTest.java" />
@@ -379,27 +389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TypesOfBugs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="408">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -408,20 +401,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="561">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesOfBugs.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TypesOfBugs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -430,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

@@ -12,8 +12,10 @@ public class MainPage{
 
     @FindBy(id="menu-item-5906" )
     private WebElement examplesOfBugs;
+    @FindBy(id="menu-item-1024")
+    private WebElement typesOfbugs;
 
-    //*[@id="sq-content"]/div/section/h3
+
 
 
 
@@ -27,6 +29,10 @@ public class MainPage{
 
         examplesOfBugs.click();
 
+    }
+
+    public void clickOnTypesOfbugs(){
+        typesOfbugs.click();
     }
 
 

@@ -9,21 +9,26 @@ public class ExamplesOfBugs {
 
 
     @FindBy(xpath= "//*[@id='sq-content']/div/section/h3" )
-    private WebElement examplesOfBugs;
+    private WebElement examplesOfBugsName;
+    @FindBy(xpath="  //*[@id='TourTip0']/button")
+    private WebElement closeTutorialButton;
 
 
 
-    private WebDriver driver;
 
-    public ExamplesOfBugs(WebDriver driver) {
 
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+
+
+
+    public ExamplesOfBugs() {
+
+
+        PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
     public void checkText(){
 
-        String text= examplesOfBugs.getText();
+        String text= examplesOfBugsName.getText();
         System.out.println(text);
         Assert.assertEquals(text,"Examples of Bugs");
 
@@ -32,5 +37,7 @@ public class ExamplesOfBugs {
     }
 
 
-
+    public void closeTutorialButton() {
+        closeTutorialButton.click();
+    }
 }

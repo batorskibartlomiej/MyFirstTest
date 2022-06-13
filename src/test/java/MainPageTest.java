@@ -8,5 +8,14 @@ public class MainPageTest extends TestBase {
         MainPage mainPage=new MainPage();
         mainPage.clickOnExamples();
 
+        ExamplesOfBugs examplesOfBugs=new ExamplesOfBugs();
+        examplesOfBugs.checkText();
+        examplesOfBugs.closeTutorialButton();
+
+        mainPage.clickOnTypesOfbugs();
+        TypesOfBugs typesOfBugs= new TypesOfBugs();
+        typesOfBugs.checkText();
+
+
     }
 }

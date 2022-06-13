@@ -31,9 +31,9 @@ public class TestBase {
 
 
 
-    @AfterMethod
-    public void afterTest() {
-        DriverManager.disposeDriver();
-    }
+//    @AfterMethod
+//    public void afterTest() {
+//        DriverManager.disposeDriver();
+//    }
 
 }
