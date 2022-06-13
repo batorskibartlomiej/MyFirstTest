@@ -16,6 +16,8 @@ public class MainPageTest extends TestBase {
         TypesOfBugs typesOfBugs= new TypesOfBugs();
         typesOfBugs.checkText();
 
+        mainPage.clickOnFindBugs();
+
 
     }
 }

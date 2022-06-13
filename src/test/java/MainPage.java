@@ -14,6 +14,8 @@ public class MainPage{
     private WebElement examplesOfBugs;
     @FindBy(id="menu-item-1024")
     private WebElement typesOfbugs;
+    @FindBy(xpath="//*[@id='menu-item-561']/a")
+    private WebElement findBugs;
 
 
 
@@ -33,6 +35,10 @@ public class MainPage{
 
     public void clickOnTypesOfbugs(){
         typesOfbugs.click();
+    }
+
+    public void clickOnFindBugs(){
+        findBugs.click();
     }
 
 
