@@ -6,19 +6,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 
+public class MainPage {
 
-public class MainPage{
 
-
-    @FindBy(id="menu-item-5906" )
+    @FindBy(id = "menu-item-5906")
     private WebElement examplesOfBugs;
-    @FindBy(id="menu-item-1024")
+    @FindBy(id = "menu-item-1024")
     private WebElement typesOfbugs;
-    @FindBy(xpath="//*[@id='menu-item-561']/a")
+    @FindBy(xpath = "//*[@id='menu-item-561']/a")
     private WebElement findBugs;
-
-
-
+    @FindBy(xpath = "//*[@id='menu-item-5687']/a")
+    private WebElement reportBugs;
 
 
     public MainPage() {
@@ -27,23 +25,22 @@ public class MainPage{
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnExamples(){
+    public void clickOnExamples() {
 
         examplesOfBugs.click();
 
     }
 
-    public void clickOnTypesOfbugs(){
+    public void clickOnTypesOfbugs() {
         typesOfbugs.click();
     }
 
-    public void clickOnFindBugs(){
+    public void clickOnFindBugs() {
         findBugs.click();
     }
 
 
-
-
-
-
+    public void clickOnReportBugs() {
+        reportBugs.click();
+    }
 }

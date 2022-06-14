@@ -18,7 +18,7 @@ public class TypesOfBugs {
 
     }
 
-    public void checkText(){
+    public void checkTittle(){
         String name = text.getText();
         System.out.println(name);
         Assert.assertEquals(name, "Learn the different types of bugs that commonly occur in websites and apps." );
