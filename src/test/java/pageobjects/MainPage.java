@@ -1,9 +1,11 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+package pageobjects;
+
+import driver.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
+import pageobjects.ExamplesOfBugs;
+import pageobjects.FindBugs;
 
 
 public class MainPage {
@@ -25,22 +27,27 @@ public class MainPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void clickOnExamples() {
+    public ExamplesOfBugs clickOnExamples() {
 
         examplesOfBugs.click();
+        return new ExamplesOfBugs();
 
     }
 
-    public void clickOnTypesOfbugs() {
+    public TypesOfBugs clickOnTypesOfbugs() {
         typesOfbugs.click();
+        return new TypesOfBugs();
     }
 
-    public void clickOnFindBugs() {
+    public FindBugs clickOnFindBugs() {
         findBugs.click();
+
+        return new FindBugs();
     }
 
 
-    public void clickOnReportBugs() {
+    public ReportBugs clickOnReportBugs() {
         reportBugs.click();
+        return new ReportBugs();
     }
 }

@@ -1,4 +1,6 @@
+package pageobjects;
 
+import driver.DriverManager;
 import org.openqa.selenium.WebDriver;
 
 import org.testng.annotations.BeforeMethod;

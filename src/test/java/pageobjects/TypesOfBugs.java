@@ -1,4 +1,6 @@
-import org.openqa.selenium.WebDriver;
+package pageobjects;
+
+import driver.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

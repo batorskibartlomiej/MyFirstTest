@@ -1,8 +1,11 @@
-import org.openqa.selenium.WebDriver;
+package pageobjects;
+
+import driver.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import waits.WaitForElement;
 
 public class ExamplesOfBugs {
 
@@ -16,6 +19,8 @@ public class ExamplesOfBugs {
     @FindBy(xpath="//*[@id='popmake-4434']/div/h5")
     private WebElement tittleSocialBugs;
 
+    @FindBy(xpath="//*[@id='popmake-4434']/button")
+    private WebElement closeButton;
 
     public ExamplesOfBugs() {
 
@@ -23,30 +28,40 @@ public class ExamplesOfBugs {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public void checkTittle() {
+    public ExamplesOfBugs checkTittle() {
 
         String text = examplesOfBugsName.getText();
         System.out.println(text);
         Assert.assertEquals(text, "Examples of Bugs");
+        return new ExamplesOfBugs();
 
 
     }
 
 
-    public void closeTutorialButton() {
+    public ExamplesOfBugs closeTutorialButton() {
         closeTutorialButton.click();
+        return new ExamplesOfBugs();
+    }
+
+    public ExamplesOfBugs closeButton() {
+        closeButton.click();
+        return new ExamplesOfBugs();
     }
 
 
-    public void clickSocialShareButtonBugs() {
+    public ExamplesOfBugs clickSocialShareButtonBugs() {
         socialShareButtonBugs.click();
+        return  new ExamplesOfBugs();
     }
 
-    public void checkTittleSocialBugs() {
+    public ExamplesOfBugs checkTittleSocialBugs() {
 
+        WaitForElement.waitUntilElemembtIsVisible(tittleSocialBugs);
         String text = tittleSocialBugs.getText();
         System.out.println(text);
         Assert.assertEquals(text, "Social share buttons don’t work");
+        return  new ExamplesOfBugs();
 
 
     }
