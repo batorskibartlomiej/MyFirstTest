@@ -22,6 +22,10 @@ public class ExamplesOfBugs {
     @FindBy(xpath="//*[@id='popmake-4434']/button")
     private WebElement closeButton;
 
+//    @FindBy(xpath="//*[@id='popmake-4434']/href")
+    @FindBy(id="low_s")
+     private WebElement articleList;
+
     public ExamplesOfBugs() {
 
 
@@ -66,4 +70,9 @@ public class ExamplesOfBugs {
 
     }
 
+    public ArticleList showArticleList() {
+        WaitForElement.waitUntilElementIsClickable((articleList));
+        articleList.click();
+        return new ArticleList();
+    }
 }

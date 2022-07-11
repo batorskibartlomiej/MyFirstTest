@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import pageobjects.MainPage;
 import pageobjects.TestBase;
 
+import java.util.ArrayList;
+
 public class ExampleOfBugsTest extends TestBase {
 
 
@@ -16,7 +18,13 @@ public class ExampleOfBugsTest extends TestBase {
                 .closeTutorialButton()
                 .clickSocialShareButtonBugs()
                 .checkTittleSocialBugs()
-                .closeButton();
+                .showArticleList()
+                .checkArticlesTittleSite();
+
+
+        //Get the list of window handles
+
+
 
 
     }
