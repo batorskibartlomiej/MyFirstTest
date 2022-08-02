@@ -16,6 +16,8 @@ public class ExamplesOfBugs {
     private WebElement closeTutorialButton;
     @FindBy(xpath = "//*[@id='sq-content']/div/section/div/a[1]/div/div/h5")
     private WebElement socialShareButtonBugs;
+    @FindBy(xpath = "//*[@id='sq-content']/div/section/div/a[2]/div/div/p" )
+    private WebElement sendButtonReturnsError;
     @FindBy(xpath="//*[@id='popmake-4434']/div/h5")
     private WebElement tittleSocialBugs;
 
@@ -25,6 +27,9 @@ public class ExamplesOfBugs {
 //    @FindBy(xpath="//*[@id='popmake-4434']/href")
     @FindBy(id="low_s")
      private WebElement articleList;
+
+    @FindBy(id="medium_s")
+    private WebElement contactUsForm;
 
     public ExamplesOfBugs() {
 
@@ -59,6 +64,11 @@ public class ExamplesOfBugs {
         return  new ExamplesOfBugs();
     }
 
+    public ExamplesOfBugs clickSendButtonRetunrsError() {
+        sendButtonReturnsError.click();
+        return  new ExamplesOfBugs();
+    }
+
     public ExamplesOfBugs checkTittleSocialBugs() {
 
         WaitForElement.waitUntilElemembtIsVisible(tittleSocialBugs);
@@ -74,5 +84,11 @@ public class ExamplesOfBugs {
         WaitForElement.waitUntilElementIsClickable((articleList));
         articleList.click();
         return new ArticleList();
+    }
+
+    public ContactUs clickContactForm() {
+        WaitForElement.waitUntilElementIsClickable((contactUsForm));
+        contactUsForm.click();
+        return new ContactUs();
     }
 }

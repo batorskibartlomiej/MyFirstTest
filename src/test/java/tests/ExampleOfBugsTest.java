@@ -20,6 +20,10 @@ public class ExampleOfBugsTest extends TestBase {
                 .checkTittleSocialBugs()
                 .showArticleList()
                 .checkArticlesTittleSite();
+        mainPage.clickOnExamples()
+                .clickSendButtonRetunrsError()
+                .clickContactForm()
+                .checkTittle();
 
 
         //Get the list of window handles

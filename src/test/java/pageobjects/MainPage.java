@@ -21,6 +21,7 @@ public class MainPage {
     private WebElement reportBugs;
 
 
+
     public MainPage() {
 
 
