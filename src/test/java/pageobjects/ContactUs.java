@@ -14,6 +14,26 @@ public class ContactUs {
     private WebElement tiitle;
 //*[@id="contact-form"]/h3
 
+    @FindBy(id="first_name")
+    private WebElement firstName;
+
+    @FindBy(name="last_name")
+    private WebElement lastName;
+
+    @FindBy(xpath="//*[@id='contact-form']/div[2]/input")
+    private WebElement email;
+
+    @FindBy(xpath="//*[@id='contact-form']/div[3]/input")
+    private WebElement subject;
+
+    @FindBy(xpath="//*[@id='contact-form']/div[5]/button")
+    private WebElement sendButton;
+
+
+    //*[@id="contact-form"]/div[1]/div/div[2]/input
+//*[@id="contact-form"]/div[2]/input
+
+
     public ContactUs() {
 
 
@@ -21,7 +41,7 @@ public class ContactUs {
     }
 
 
-    public void checkTittle(){
+    public ContactUs checkTittle(){
         ArrayList<String> tabs2 = new ArrayList<String>(DriverManager.getWebDriver().getWindowHandles());
         DriverManager.getWebDriver().switchTo().window(tabs2.get(1));
         DriverManager.getWebDriver().close();
@@ -30,8 +50,39 @@ public class ContactUs {
         String tittle = tiitle.getText();
         System.out.println(tittle);
         Assert.assertEquals(tittle, "Contact Us");
+        return this;
+
 
     }
 
+    public ContactUs writeFirstName(){
+        firstName.click();
+        firstName.sendKeys("Bartek");
+        return this;
+    }
 
+    public ContactUs writeLastName(){
+        lastName.click();
+        lastName.sendKeys("Batorski");
+        return this;
+    }
+
+
+    public ContactUs writeEmail() {
+        email.click();
+        email.sendKeys("test@wp.pl");
+        return this;
+    }
+
+    public ContactUs writeSubject() {
+        subject.click();
+        subject.sendKeys("TEST");
+        return this;
+
+    }
+
+    public ContactUs sendButtonError() {
+        sendButton.click();
+        return this;
+    }
 }

@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
+import pageobjects.ContactUs;
 import pageobjects.MainPage;
 import pageobjects.TestBase;
 
@@ -23,8 +24,12 @@ public class ExampleOfBugsTest extends TestBase {
         mainPage.clickOnExamples()
                 .clickSendButtonRetunrsError()
                 .clickContactForm()
-                .checkTittle();
-
+                .checkTittle()
+                .writeFirstName()
+                .writeLastName()//contactUs
+                .writeEmail()
+                .writeSubject()
+                .sendButtonError();
 
         //Get the list of window handles
 

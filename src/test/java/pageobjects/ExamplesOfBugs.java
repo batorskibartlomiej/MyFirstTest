@@ -50,7 +50,7 @@ public class ExamplesOfBugs {
 
     public ExamplesOfBugs closeTutorialButton() {
         closeTutorialButton.click();
-        return new ExamplesOfBugs();
+        return this;
     }
 
     public ExamplesOfBugs closeButton() {
@@ -66,7 +66,7 @@ public class ExamplesOfBugs {
 
     public ExamplesOfBugs clickSendButtonRetunrsError() {
         sendButtonReturnsError.click();
-        return  new ExamplesOfBugs();
+        return  this;
     }
 
     public ExamplesOfBugs checkTittleSocialBugs() {
@@ -75,7 +75,7 @@ public class ExamplesOfBugs {
         String text = tittleSocialBugs.getText();
         System.out.println(text);
         Assert.assertEquals(text, "Social share buttons don’t work");
-        return  new ExamplesOfBugs();
+        return  this;
 
 
     }
