@@ -22,7 +22,7 @@ public class ArticleList  {
 
     public ArticleList(){
         PageFactory.initElements(DriverManager.getWebDriver(), this);
-    }
+    }//wzorzec singleton
 
 
     public void checkArticlesTittleSite() {

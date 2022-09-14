@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 
-    public class DriverManager {
+    public class DriverManager {//wzorzec singleton
 
         private static WebDriver driver;
 

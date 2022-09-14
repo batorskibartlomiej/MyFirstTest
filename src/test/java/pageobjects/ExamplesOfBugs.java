@@ -20,6 +20,8 @@ public class ExamplesOfBugs {
     private WebElement sendButtonReturnsError;
     @FindBy(xpath="//*[@id='popmake-4434']/div/h5")
     private WebElement tittleSocialBugs;
+    @FindBy(xpath="//*[@id='sq-content']/div/section/div/a[3]/div/div/h5")
+    private WebElement videoPlayer;
 
     @FindBy(xpath="//*[@id='popmake-4434']/button")
     private WebElement closeButton;
@@ -90,5 +92,10 @@ public class ExamplesOfBugs {
         WaitForElement.waitUntilElementIsClickable((contactUsForm));
         contactUsForm.click();
         return new ContactUs();
+    }
+
+    public void clickOnVideoPlayer(){
+        WaitForElement.waitUntilElementIsClickable(videoPlayer);
+        videoPlayer.click();
     }
 }

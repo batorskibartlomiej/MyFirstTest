@@ -29,7 +29,12 @@ public class ExampleOfBugsTest extends TestBase {
                 .writeLastName()//contactUs
                 .writeEmail()
                 .writeSubject()
-                .sendButtonError();
+                .sendButtonError()
+                .checkErrorMsg()
+                .writeMsg()
+                .sendButton();
+        mainPage.clickOnExamples()
+                .clickOnVideoPlayer();
 
         //Get the list of window handles
 

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import waits.WaitForElement;
 
 import java.util.ArrayList;
 
@@ -28,6 +29,12 @@ public class ContactUs {
 
     @FindBy(xpath="//*[@id='contact-form']/div[5]/button")
     private WebElement sendButton;
+
+    @FindBy(id="msg_error")
+    private WebElement errorMsg;
+
+    @FindBy(id="input-message")
+    private WebElement message;
 
 
     //*[@id="contact-form"]/div[1]/div/div[2]/input
@@ -84,5 +91,26 @@ public class ContactUs {
     public ContactUs sendButtonError() {
         sendButton.click();
         return this;
+    }
+
+    public ContactUs checkErrorMsg(){
+        WaitForElement.waitUntilElemembtIsVisible(errorMsg);
+        String errorTxt= errorMsg.getText();
+        System.out.println(errorTxt);
+        Assert.assertEquals(errorTxt,"This field is required." );
+        return this;
+
+    }
+
+
+    public ContactUs writeMsg(){
+        message.click();
+        message.sendKeys("To są tylko testy, teraz już coś wpiszę");
+        return this;
+    }
+
+    public void sendButton() {
+        sendButton.click();
+
     }
 }
