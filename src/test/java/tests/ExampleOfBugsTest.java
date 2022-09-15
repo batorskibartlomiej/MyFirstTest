@@ -34,7 +34,10 @@ public class ExampleOfBugsTest extends TestBase {
                 .writeMsg()
                 .sendButton();
         mainPage.clickOnExamples()
-                .clickOnVideoPlayer();
+                .clickOnVideoPlayer()
+                .goToVideoPlayer()
+                .checkTittle()
+                .clickVideo1();
 
         //Get the list of window handles
 

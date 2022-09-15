@@ -25,10 +25,13 @@ public class ExamplesOfBugs {
 
     @FindBy(xpath="//*[@id='popmake-4434']/button")
     private WebElement closeButton;
-
+    @FindBy(xpath="//*[@id='popmake-4434']/div/div/ol/li[1]/a/b")
+    private WebElement videoPlayerSite;
 //    @FindBy(xpath="//*[@id='popmake-4434']/href")
     @FindBy(id="low_s")
      private WebElement articleList;
+
+    ////*[@id="popmake-4434"]/div/div/ol/li[1]/a/b
 
     @FindBy(id="medium_s")
     private WebElement contactUsForm;
@@ -94,8 +97,15 @@ public class ExamplesOfBugs {
         return new ContactUs();
     }
 
-    public void clickOnVideoPlayer(){
+    public ExamplesOfBugs clickOnVideoPlayer(){
         WaitForElement.waitUntilElementIsClickable(videoPlayer);
         videoPlayer.click();
+        return this;
+    }
+
+    public VideoPlayer goToVideoPlayer(){
+        WaitForElement.waitUntilElementIsClickable(videoPlayerSite);
+        videoPlayerSite.click();
+        return new VideoPlayer();
     }
 }
