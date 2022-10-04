@@ -23,7 +23,7 @@ public class ExampleOfBugsTest extends TestBase {
     public void exampleOfBugsTest() throws InterruptedException {
         MainPage mainPage = new MainPage();
         mainPage.clickOnExamples()
-                .closeTutorialButton()
+                .closeTutorialButton().
                 .clickSocialShareButtonBugs()
                 .checkTittleSocialBugs()
                 .showArticleList()
