@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="#test">
+    <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="#workingOnVideoPLayerClass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/VideoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/VideoPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ExampleOfBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ExampleOfBugsTest.java" afterDir="false" />
@@ -336,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664901082311</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#workingOnVideoPLayerClass">
+      <created>1665582994878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665582994879</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -422,7 +429,8 @@
     <MESSAGE value="#new class ArticleList and switching tabs" />
     <MESSAGE value="#new class ContactUs and good void for switching tabs" />
     <MESSAGE value="#test" />
-    <option name="LAST_COMMIT_MESSAGE" value="#test" />
+    <MESSAGE value="#workingOnVideoPLayerClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="#workingOnVideoPLayerClass" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/ExamplesTest.java" />

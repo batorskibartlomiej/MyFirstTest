@@ -38,6 +38,8 @@ public class VideoPlayer {
     public WebElement fullscreen2;
     @FindBy(xpath="//*[@id='post-1510']/div/div/div/div[3]/div/div[1]/div/div[1]/button[2]")
     public WebElement fullscreen3;
+    @FindBy(xpath="//*[@id='post-1510']/div/div/div/div[4]/div/div[1]/div/div[1]/button[2]")
+    public WebElement fullscreen4;
 
 
 
@@ -77,8 +79,10 @@ public class VideoPlayer {
         video3.click();
         return this;
     }
-    public VideoPlayer clickVideo4(){
+    public VideoPlayer clickVideo4() throws InterruptedException {
         WaitForElement.waitUntilElementIsClickable(video4);
+        video4.click();
+        Thread.sleep(2000);
         video4.click();
         return this;
     }
@@ -125,10 +129,15 @@ public class VideoPlayer {
         WaitForElement.waitUntilElementIsClickable(fullscreen3);
         fullscreen3.click();
         Thread.sleep(2000);
-
-//        Actions actions = new Actions(DriverManager.getWebDriver());
-//        actions.sendKeys(String.valueOf('\u001B')).perform();
         fullscreen3.click();
         return this;
     }
+
+//    public VideoPlayer clickFullScreen4() throws InterruptedException {
+//        WaitForElement.waitUntilElementIsClickable(fullscreen4);
+//        fullscreen4.click();
+//        Thread.sleep(2000);
+//        fullscreen4.click();
+//        return this;
+//    }
 }
