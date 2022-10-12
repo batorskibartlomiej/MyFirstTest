@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import pageobjects.ContactUs;
 import pageobjects.MainPage;
 import pageobjects.TestBase;
+import pageobjects.VideoPlayer;
 
 import java.util.ArrayList;
 
@@ -23,7 +24,7 @@ public class ExampleOfBugsTest extends TestBase {
     public void exampleOfBugsTest() throws InterruptedException {
         MainPage mainPage = new MainPage();
         mainPage.clickOnExamples()
-                .closeTutorialButton().
+                .closeTutorialButton()
                 .clickSocialShareButtonBugs()
                 .checkTittleSocialBugs()
                 .showArticleList()
@@ -45,11 +46,13 @@ public class ExampleOfBugsTest extends TestBase {
                 .goToVideoPlayer()
                 .checkTittle()
                 .clickVideo1()
-                .clickFullScreen1()
+             .clickFullScreen1()
                 .clickVideo2()
-                .clickFullScreen2()
-                .clickVideo2()
-                .clickFullScreen2();
+                .clickVideo3()
+                .clickFullScreen3()
+                .clickVideo4();
+
+
 
 
         //Get the list of window handles

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="">
+    <list default="true" id="9a6b1252-ad25-4182-b4aa-c10a584101bc" name="Default Changelist" comment="#test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/VideoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/VideoPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ExampleOfBugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ExampleOfBugsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +155,7 @@
       <recent name="pageobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExampleOfBugsTest (1)">
+  <component name="RunManager" selected="TestNG.ExampleOfBugsTest.exampleOfBugsTest (1)">
     <configuration name="ExampleOfBugsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="onlineShop" />
       <extension name="coverage">
@@ -189,6 +190,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleOfBugsTest.exampleOfBugsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="onlineShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ExampleOfBugsTest" />
+      <option name="METHOD_NAME" value="exampleOfBugsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleOfBugsTest.exampleOfBugsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -214,18 +233,6 @@
       </method>
     </configuration>
     <configuration name="TestBase.examplesOfBugs" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onlineShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="pageobjects.TestBase" />
-      <option name="METHOD_NAME" value="examplesOfBugs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBase.examplesOfBugs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBase" />
@@ -239,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExampleOfBugsTest.exampleOfBugsTest (1)" />
         <item itemvalue="TestNG.ExampleOfBugsTest (1)" />
         <item itemvalue="TestNG.ExampleOfBugsTest.exampleOfBugsTest" />
         <item itemvalue="TestNG.ExampleOfBugsTest" />
         <item itemvalue="TestNG.MainPageTest.mainPageTest" />
-        <item itemvalue="TestNG.TestBase.examplesOfBugs" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663695477756</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="#test">
+      <created>1664900892303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664900892303</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#test">
+      <created>1664901082311</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664901082311</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
